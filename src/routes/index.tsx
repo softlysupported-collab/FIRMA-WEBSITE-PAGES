@@ -23,20 +23,21 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Premium construction, civil engineering, design-build and project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end.",
+          "Premium construction, civil engineering, design & build project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end.",
       },
       { property: "og:title", content: "Construction Company in Ghana | Firma Projektz Ltd" },
       {
         property: "og:description",
         content:
-          "Premium construction, civil engineering, design-build and project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end.",
+          "Premium construction, civil engineering, design & build project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
       },
       { property: "og:url", content: "/" },
       { property: "og:type", content: "website" },
       { name: "twitter:title", content: "Construction Company in Ghana | Firma Projektz Ltd" },
       {
         name: "twitter:description",
-        content: "Premium construction, civil engineering, design-build and project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end.",
+        content:
+          "Premium construction, civil engineering, design & build project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
       },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -80,10 +81,9 @@ function Home() {
               <span className="block text-brand">Building Lasting Value.</span>
             </h1>
             <p className="mt-6 max-w-2xl text-lg md:text-xl text-white/80 leading-relaxed">
-              Firma Projektz Ltd is a Ghanaian construction and civil engineering firm delivering
-              building, infrastructure, design-build and project management works for government,
-              corporate, industrial and private clients. Technically led, safely executed, delivered
-              to last.
+              Firma Projektz Ltd is a Ghanaian construction and civil engineering firm delivering building,
+              infrastructure, design & build project management services for government, corporate, industrial and
+              private clients. Technically led, safely executed, delivered to last.
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <Link
@@ -115,14 +115,13 @@ function Home() {
           </div>
           <div className="space-y-6 text-ink-soft text-lg leading-relaxed">
             <p>
-              Firma Projektz Ltd serves government institutions, property developers, corporates,
-              industrial operators, NGOs and private homeowners across Ghana, pairing local delivery
-              capacity with international engineering standards.
+              Firma Projektz Ltd serves government institutions, property developers, corporates, industrial operators,
+              NGOs and private homeowners across Ghana, pairing local delivery capacity with international engineering
+              standards.
             </p>
             <p>
-              From concept to commissioning, our multidisciplinary team owns every phase — design,
-              engineering, procurement, construction and handover — under a single accountable
-              partnership.
+              From concept to commissioning, our multidisciplinary team owns every phase — design, engineering,
+              procurement, construction and handover — under a single accountable partnership.
             </p>
             <div className="pt-4 flex flex-wrap gap-x-8 gap-y-3">
               {["Turn-key delivery", "International standards", "Zero-harm safety culture", "In-house engineering"].map(
@@ -217,7 +216,8 @@ function Home() {
                     alt={`${p.title} — ${p.category} project by Firma Projektz`}
                     width={1200}
                     height={900}
-                    loading="lazy" decoding="async"
+                    loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
@@ -326,9 +326,9 @@ function Home() {
               Committed to the highest standards of safety and quality on every project.
             </h2>
             <p className="mt-6 text-lg text-ink-soft leading-relaxed">
-              Safety is engineered into how we plan, procure and build. Our HSE programme, site
-              inductions and continuous training ensure that every worker goes home safely — and
-              every structure we deliver meets stringent quality benchmarks.
+              Safety is engineered into how we plan, procure and build. Our HSE programme, site inductions and
+              continuous training ensure that every worker goes home safely — and every structure we deliver meets
+              stringent quality benchmarks.
             </p>
             <ul className="mt-8 space-y-4">
               {[

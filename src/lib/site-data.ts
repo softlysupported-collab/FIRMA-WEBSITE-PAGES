@@ -324,77 +324,77 @@ export const energyProject: Project = {
 };
 
 export const hostelProject: Project = {
-  slug: "hostel-works",
-  title: "Hostel Construction & Accommodation Development Projects",
-  category: "Residential & Institutional Infrastructure",
+  slug: "hotels-hospitality",
+  title: "Hotels/Hospitality Infrastructure Development Projects",
+  category: "Hospitality Infrastructure",
   location: "Ghana",
   image: hostelRoofing.url,
   client: "Confidential",
   status: "Completed",
   summary:
-    "Modern hostel developments built for comfort, functionality and long-term durability — across student, staff and private accommodation.",
+    "Hotels, lodges and hospitality developments built for comfort, functionality and long-term durability — from guest accommodation to full-service facilities.",
   description:
-    "Firma Projektz Ltd delivers modern hostel developments that combine architectural quality, structural integrity and long-term value. From student accommodation and staff housing to private residential hostels and multi-storey lodging, our capabilities span earthworks, reinforced concrete structures, masonry, roofing, MEP installations, interior finishing, external works, drainage, landscaping and full project management — with meticulous attention to detail throughout.",
+    "Firma Projektz Ltd delivers hotels and hospitality infrastructure that combines architectural quality, structural integrity and long-term value. From guest accommodation blocks and lodging facilities to multi-storey hotels and resort-style developments, our capabilities span earthworks, reinforced concrete structures, masonry, roofing, MEP installations, interior finishing, external works, drainage, landscaping and full project management — with meticulous attention to detail throughout.",
   gallery: [
     {
       src: hostelSetout.url,
-      alt: "Hostel construction project by Firma Projektz Ltd in Ghana — site set-out and foundation trenches marked on prepared ground.",
+      alt: "Hotel and hospitality construction project by Firma Projektz Ltd in Ghana — site set-out and foundation trenches marked on prepared ground.",
       caption: "Site set-out & foundation trenches",
     },
     {
       src: hostelFoundations.url,
-      alt: "Hostel foundation and reinforced concrete substructure works by Firma Projektz Ltd in Ghana.",
+      alt: "Hotel and hospitality foundation and reinforced concrete substructure works by Firma Projektz Ltd in Ghana.",
       caption: "Reinforced concrete foundation works",
     },
     {
       src: hostelSuperstructure.url,
-      alt: "Multi-storey hostel superstructure with concrete columns and blockwork by Firma Projektz Ltd in Ghana.",
+      alt: "Multi-storey hotel and hospitality superstructure with concrete columns and blockwork by Firma Projektz Ltd in Ghana.",
       caption: "Superstructure — columns & blockwork",
     },
     {
       src: hostelColumns.url,
-      alt: "Hostel construction progress showing reinforced concrete columns and adjacent completed blocks by Firma Projektz Ltd in Ghana.",
+      alt: "Hotel and hospitality construction progress showing reinforced concrete columns and adjacent completed blocks by Firma Projektz Ltd in Ghana.",
       caption: "Column casting & structural progress",
     },
     {
       src: hostelSiteProgress.url,
-      alt: "Student accommodation facility construction progress with formwork and material stockpiles by Firma Projektz Ltd in Ghana.",
+      alt: "Hotel and hospitality accommodation facility construction progress with formwork and material stockpiles by Firma Projektz Ltd in Ghana.",
       caption: "Formwork & site-wide construction progress",
     },
     {
       src: hostelRoofing.url,
-      alt: "Modern residential hostel roofing works with timber trusses installed by Firma Projektz Ltd in Ghana.",
+      alt: "Modern hotel and hospitality roofing works with timber trusses installed by Firma Projektz Ltd in Ghana.",
       caption: "Roof truss installation",
     },
     {
       src: hostelPic18.url,
-      alt: "Hostel construction site with crews installing decorative stone cladding and external finishes by Firma Projektz Ltd in Ghana.",
+      alt: "Hotel and hospitality construction site with crews installing decorative stone cladding and external finishes by Firma Projektz Ltd in Ghana.",
       caption: "External finishing & stone cladding works",
     },
     {
       src: hostelPic17.url,
-      alt: "Aerial view of completed hostel block with red metal roofing by Firma Projektz Ltd in Ghana.",
+      alt: "Aerial view of completed hotel and hospitality block with red metal roofing by Firma Projektz Ltd in Ghana.",
       caption: "Completed roofing — aerial view",
     },
     {
       src: hostelPic16.url,
-      alt: "Hostel courtyard paving preparation with stone-clad columns and completed roofing by Firma Projektz Ltd in Ghana.",
+      alt: "Hotel and hospitality courtyard paving preparation with stone-clad columns and completed roofing by Firma Projektz Ltd in Ghana.",
       caption: "Courtyard paving preparation",
     },
     {
       src: hostelPic13.url,
-      alt: "Completed stone-clad hostel gatehouse and entrance gate by Firma Projektz Ltd in Ghana.",
+      alt: "Completed stone-clad hotel and hospitality gatehouse and entrance gate by Firma Projektz Ltd in Ghana.",
       caption: "Stone-clad gatehouse & entrance",
     },
     {
       src: hostelPic14.url,
-      alt: "Finished ground-floor hostel walkway with tiled flooring, artificial turf and stone-clad columns by Firma Projektz Ltd in Ghana.",
+      alt: "Finished ground-floor hotel and hospitality walkway with tiled flooring, artificial turf and stone-clad columns by Firma Projektz Ltd in Ghana.",
       caption: "Ground floor walkway — finished",
     },
     {
       src: hostelPic15.url,
-      alt: "Completed multi-storey hostel courtyard with tiled walkways, landscaping and stone-clad columns by Firma Projektz Ltd in Ghana.",
-      caption: "Completed hostel courtyard",
+      alt: "Completed multi-storey hotel and hospitality courtyard with tiled walkways, landscaping and stone-clad columns by Firma Projektz Ltd in Ghana.",
+      caption: "Completed courtyard",
     },
   ],
 };

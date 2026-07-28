@@ -1,12 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import {
-  Outlet,
-  Link,
-  createRootRouteWithContext,
-  useRouter,
-  HeadContent,
-  Scripts,
-} from "@tanstack/react-router";
+import { Outlet, Link, createRootRouteWithContext, useRouter, HeadContent, Scripts } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
@@ -27,9 +20,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   return (
     <div className="flex min-h-dvh items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
-        <h1 className="font-display text-xl font-semibold tracking-tight text-ink">
-          This page didn't load
-        </h1>
+        <h1 className="font-display text-xl font-semibold tracking-tight text-ink">This page didn't load</h1>
         <p className="mt-2 text-sm text-muted-foreground">
           Something went wrong on our end. You can try refreshing or head back home.
         </p>
@@ -64,7 +55,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Premium construction, civil engineering, design-build and project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end.",
+          "Premium construction, civil engineering, design & build project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
       },
       {
         name: "keywords",
@@ -85,10 +76,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "geo.placename", content: "Accra, Ghana" },
       { property: "og:title", content: "Construction Company in Ghana | Firma Projektz Ltd" },
       { name: "twitter:title", content: "Construction Company in Ghana | Firma Projektz Ltd" },
-      { property: "og:description", content: "Premium construction, civil engineering, design-build and project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end." },
-      { name: "twitter:description", content: "Premium construction, civil engineering, design-build and project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/dGoIjInjkYQlzohn9eRimyeW5gn2/social-images/social-1784866160296-ChatGPT_Image_Jul_4,_2026,_04_34_28_AM.webp" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/dGoIjInjkYQlzohn9eRimyeW5gn2/social-images/social-1784866160296-ChatGPT_Image_Jul_4,_2026,_04_34_28_AM.webp" },
+      {
+        property: "og:description",
+        content:
+          "Premium construction, civil engineering, design & build project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end.",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Premium construction, civil engineering, design & build project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://storage.googleapis.com/gpt-engineer-file-uploads/dGoIjInjkYQlzohn9eRimyeW5gn2/social-images/social-1784866160296-ChatGPT_Image_Jul_4,_2026,_04_34_28_AM.webp",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://storage.googleapis.com/gpt-engineer-file-uploads/dGoIjInjkYQlzohn9eRimyeW5gn2/social-images/social-1784866160296-ChatGPT_Image_Jul_4,_2026,_04_34_28_AM.webp",
+      },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -114,9 +121,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           name: "Firma Projektz Ltd",
           alternateName: "Firma Projektz",
           description:
-            "Ghanaian construction, civil engineering, design-build and project management firm delivering premium buildings and infrastructure.",
+            "Ghanaian construction, civil engineering, design & build project management firm delivering premium buildings and infrastructure.",
           areaServed: { "@type": "Country", name: "Ghana" },
-          address: { "@type": "PostalAddress", addressCountry: "GH", addressRegion: "Greater Accra", addressLocality: "Accra" },
+          address: {
+            "@type": "PostalAddress",
+            addressCountry: "GH",
+            addressRegion: "Greater Accra",
+            addressLocality: "Accra",
+          },
           telephone: "+233-555-771-670",
           knowsAbout: [
             "Building Construction",

@@ -51,7 +51,7 @@ function About() {
       <PageHero
         eyebrow="About Us"
         title="Engineering Excellence. Building Ghana's Future."
-        description="Firma Projektz Ltd is a trusted Ghanaian construction and engineering firm delivering building construction, civil engineering, infrastructure, design-build and project management works for government, corporate and private clients. We combine technical expertise, modern construction practice and disciplined delivery to create infrastructure that lasts."
+        description="Firma Projektz Ltd is a trusted Ghanaian construction and engineering firm delivering building construction, civil engineering, infrastructure, design & build project management services for government, corporate and private clients. We combine technical expertise, modern construction practice and disciplined delivery to create infrastructure that lasts."
         image={aboutHero}
         imageAlt="Professional engineers and project managers reviewing architectural plans on a Firma Projektz construction site."
       />

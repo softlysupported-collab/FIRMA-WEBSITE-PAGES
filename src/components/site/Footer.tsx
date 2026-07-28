@@ -20,7 +20,7 @@ export function Footer() {
           </div>
           <p className="mt-4 text-sm leading-relaxed text-white/60 max-w-xs">
             A Ghana-based construction and civil engineering firm delivering building,
-            infrastructure, design-build and project management works — built on engineering
+            infrastructure, design & build project management services — built on engineering
             excellence, safety and long-term client partnerships.
           </p>
           <div className="mt-6 flex gap-3">

@@ -25,7 +25,7 @@ export const Route = createFileRoute("/services")({
       { name: "twitter:title", content: "Construction Services in Ghana | Firma Projektz Ltd" },
       {
         name: "twitter:description",
-        content: "Building, civil engineering, design-build and project management services in Ghana.",
+        content: "Building, civil engineering, design & build project management services in Ghana.",
       },
     ],
     links: [{ rel: "canonical", href: "/services" }],

@@ -109,7 +109,7 @@ export const Route = createFileRoute("/projects")({
       {
         name: "description",
         content:
-          "Portfolio of hospital, academic, office, energy, hostel and residential construction projects delivered by Firma Projektz Ltd across Ghana.",
+          "Portfolio of hospital, academic, office, energy, hotel, hospitality and residential construction projects delivered by Firma Projektz Ltd across Ghana.",
       },
       { property: "og:title", content: "Construction Projects in Ghana | Firma Projektz Ltd" },
       {
