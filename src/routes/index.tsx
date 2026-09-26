@@ -23,13 +23,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Premium construction, civil engineering, design & build project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end.",
+          "Premium construction, civil engineering, design & build projects, project management services for government, corporate, industrial and residential clients — delivered end-to-end.",
       },
       { property: "og:title", content: "Construction Company in Ghana | Firma Projektz Ltd" },
       {
         property: "og:description",
         content:
-          "Premium construction, civil engineering, design & build project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
+          "Premium construction, civil engineering, design & build projects, project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
       },
       { property: "og:url", content: "/" },
       { property: "og:type", content: "website" },
@@ -37,7 +37,7 @@ export const Route = createFileRoute("/")({
       {
         name: "twitter:description",
         content:
-          "Premium construction, civil engineering, design & build project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
+          "Premium construction, civil engineering, design & build projects, project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
       },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -82,8 +82,8 @@ function Home() {
             </h1>
             <p className="mt-6 max-w-2xl text-lg md:text-xl text-white/80 leading-relaxed">
               Firma Projektz Ltd is a Ghanaian construction and civil engineering firm delivering building,
-              infrastructure, design & build project management services for government, corporate, industrial and
-              private clients. Technically led, safely executed, delivered to last.
+              infrastructure, design &amp; build projects, project management services; for government, corporate,
+              industrial and private clients. Technically led, safely executed, delivered to last
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <Link

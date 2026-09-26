@@ -55,7 +55,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Premium construction, civil engineering, design & build project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
+          "Premium construction, civil engineering, design & build projects, project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
       },
       {
         name: "keywords",
@@ -79,12 +79,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Premium construction, civil engineering, design & build project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end.",
+          "Premium construction, civil engineering, design & build projects, project management services in Ghana. Landmark projects for government, corporate, industrial and residential clients — delivered end-to-end.",
       },
       {
         name: "twitter:description",
         content:
-          "Premium construction, civil engineering, design & build project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
+          "Premium construction, civil engineering, design & build projects, project management services for government, corporate, industrial and residential clients in Ghana — delivered end-to-end.",
       },
       {
         property: "og:image",
@@ -121,7 +121,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           name: "Firma Projektz Ltd",
           alternateName: "Firma Projektz",
           description:
-            "Ghanaian construction, civil engineering, design & build project management firm delivering premium buildings and infrastructure.",
+            "Ghanaian construction, civil engineering, design & build projects, project management firm delivering premium buildings and infrastructure.",
           areaServed: { "@type": "Country", name: "Ghana" },
           address: {
             "@type": "PostalAddress",
